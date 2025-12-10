@@ -19,7 +19,6 @@ requests.adapters.HTTPAdapter.send()
 Requests `Session` object does not verify requests after making first request with verify=False
 
 # CVE-2025-47273
-huggingface-llm-test..load_and_use_model()
 transformers@4.57.1
 transformers.modeling_utils.PreTrainedModel.to()
 transformers.feature_extraction_utils.BatchFeature.to()
