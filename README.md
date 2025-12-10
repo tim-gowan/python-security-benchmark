@@ -34,13 +34,6 @@ scikit-learn@0.20.1
 sklearn.feature_extraction.text.CountVectorizer._limit_features()
 scikit-learn sensitive data leakage vulnerability
 
-# CVE-2022-28347
-django-cachalot@2.4.0
-cachalot.utils.._get_tables()
-django@3.2.5
-django.db.models.sql.compiler.SQLCompiler.as_sql()
-django.db.backends.postgersql.operations.DatabaseOperations.explain_query_prefix()
-
 # CVE-2025-66221
 flask@3.1.2
 flask.app.Flask.__init__()
