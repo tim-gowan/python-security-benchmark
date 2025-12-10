@@ -1,8 +1,0 @@
-finding_id,test_name,path,line,category,real_vulnerability,CWE,description
-F00001,BenchmarkTest00002,src/benchmark/BenchmarkTest00002.py,5,command_injection,TRUE,CWE-78,Source: sys.argv[1] → Sink: sp.run in BenchmarkTest00001.process() 
-F00002,BenchmarkTest00002,src/benchmark/BenchmarkTest00002.py,9,command_injection,TRUE,CWE-78,Source: sys.argv[2] → Sink: sp.Popen in BenchmarkTest00001.execute()
-F00003,BenchmarkTest00002,src/benchmark/BenchmarkTest00002.py,22,command_injection,TRUE,CWE-78,Source: sys.argv[3] → Sink: sp.Popen in BenchmarkTest00001.execute()
-F00004,BenchmarkTest00002,src/benchmark/BenchmarkTest00002.py,24,command_injection,TRUE,CWE-78,Source: sys.argv[4] → Sink: sp.run in process() function
-F00005,BenchmarkTest00002,src/benchmark/BenchmarkTest00002.py,26,command_injection,TRUE,CWE-78,Source: sys.argv[5] → Sink: sp.Popen in BenchmarkTest00001.execute() via BenchmarkTest00002_Subclass
-F00006,BenchmarkTest00004,src/benchmark/BenchmarkTest00004.py,16,command_injection,TRUE,CWE-78,Source: vars(args)['data'] → Sink: os.system in BenchmarkTest00003.execute()
-F00007,BenchmarkTest00006,src/benchmark/BenchmarkTest00006.py,14,sql_injection,TRUE,CWE-89,Source: request.args.get('q') → Sink: cursor.executescript in BenchmarkTest00005.execute()
